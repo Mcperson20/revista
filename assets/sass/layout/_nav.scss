@@ -1,0 +1,35 @@
+.menu {
+    width: 960px;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+    display: flex;
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      text-transform: uppercase;
+      // display: inline-block;
+    }
+    .nav {
+      width: 960px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      justify-content: space-between;
+      float: right;
+      ul{
+        list-style: none;
+        display: flex;
+        li{
+          margin: 0.5rem;
+          a {
+            text-decoration: none;
+            text-transform: uppercase;
+          }
+        }
+      }
+    }
+    
+    .input-menu {
+      border-radius: 30px;
+    }
+  }

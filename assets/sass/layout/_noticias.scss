@@ -1,0 +1,14 @@
+.noticias {
+    display: grid;
+    gap: 1em;
+    grid-template-columns: repeat(4, 1fr);
+    .contenido{
+    grid-column: span 3;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5em;
+    }
+    .article{
+      grid-column: span 1;
+    }
+  }

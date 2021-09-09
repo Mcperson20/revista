@@ -1,0 +1,16 @@
+.sidebar{
+    .sidebar__tags{
+      margin: 10px 0;
+      h3{
+        margin-bottom: 10px;
+      }
+      .sidebar__spans{
+        text-align: right;
+        margin-right: 10px;
+      }
+      span{
+        background-color: #598FBB;
+        color: white;
+      }
+    }
+  }
